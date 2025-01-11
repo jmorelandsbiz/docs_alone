@@ -4,8 +4,8 @@
 ```mermaid
 graph TD
 Report_Types["Report Types"] -- Interesting detail --> Contribution_guidelines["Contribution guidelines"]
-click Report_Types "[Report Types](#Report-Types)" "Click to open Report Types"
-click Contribution_guidelines href "#Contribution-guidelines" "Click to open Contribution guidelines"
+click Report_Types "#Report-Types" "Click to open Report Types"
+click Contribution_guidelines "#Contribution-guidelines" "Click to open Contribution guidelines"
 
 ```
 
