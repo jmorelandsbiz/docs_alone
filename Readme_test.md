@@ -4,10 +4,12 @@
 ```mermaid
 graph TD
 Report_Types["Report Types"] -- Interesting detail --> Contribution_guidelines["Contribution guidelines"]
-click Report_Types "#Report-Types" "Click to open Report Types"
-click Contribution_guidelines "#oContribution-guidelines" "Click to open Contribution guidelines"
+click Report_Types "[Report Types](#Report-Types)" "Click to open Report Types"
+click Contribution_guidelines "#Contribution-guidelines" "Click to open Contribution guidelines"
 
 ```
+
+[Report Types](#Report-Types)
 
 ### What is this repository for? ###
 This project is for better discovery of SSIS packages. It models the SSIS packages, writes reports, and generates lists of dependent tables. 
